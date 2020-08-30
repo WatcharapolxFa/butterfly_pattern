@@ -3,7 +3,7 @@ struct PATTERN {
     int fa[10];
     int i;
     int q;
-}num, row, star, space;
+}numm, row, star, space;
 
 void pATTERN(int n)
 {
@@ -64,11 +64,11 @@ int main()
 {
 
     printf("Enter number : ");
-    if (scanf_s("%d", &num.fa[1]))
+    if (scanf_s("%d", &numm.fa[1]))
     {
-    Moretriangle(num.fa[1]);
-    triangle(num.fa[1]);
-    pATTERN(num.fa[1]);
+    Moretriangle(numm.fa[1]);
+    triangle(numm.fa[1]);
+    pATTERN(numm.fa[1]);
     printf("End Program.");
     }
     else
